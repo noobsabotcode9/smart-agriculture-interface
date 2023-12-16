@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.App {
+  text-align: center;
+  color: rgb(4, 4, 4);
+  padding: 20px;
+}
+
+
+
+
+
+
+.sensor-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(146, 212, 240, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.irrigation-switch{
+  margin-top: 10px;
+  
+}
+
+.react-switch {
+  margin-left: 10px;
+  margin-bottom: -10px;
+}
+
+.gauge-chart {
+  width: 100px;
+  margin: 10px;
+}
+.clock-container {
+  position: absolute;
+  top: 75px;
+  right: 10px;
+  padding: 10px;
+  background: rgba(39, 141, 225, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .sensor-data {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .clock-container {
+    top: 50px;
+    font-size: 14px;
+  }
+}

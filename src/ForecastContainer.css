@@ -1,0 +1,29 @@
+/* ForecastContainer.css */
+
+.forecast-container {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .forecast-list {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .forecast-item {
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .temperature {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .weather-icon {
+    font-size: 24px;
+    margin: 5px 0;
+  }
+  

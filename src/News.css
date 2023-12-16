@@ -1,0 +1,39 @@
+/* News.css */
+
+
+
+
+.news-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.news-item {
+  background-color: #fff;
+  max-width: 650px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.news-content {
+  color: #333;
+}
+
+h3 {
+  color: #008080;
+}
+
+
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}

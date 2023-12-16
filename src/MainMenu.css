@@ -1,0 +1,166 @@
+/* MainMenu.css */
+body, html {
+    height: 100%; /* Ensure full height of the viewport */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .mainMenu {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Take up full height */
+  }
+  
+  .menuList {
+    flex-grow: 1; /* Grow to fill available space */
+    overflow-y: auto; /* Add scrollbar if content overflows */
+  }
+.mainMenu {
+    background-color: #364953; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 80px; /* Adjust this value to add more spacing */
+    z-index: 1; /* Ensure the menu is above other content */
+    overflow-y: auto;
+  }
+  
+  .menuTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .menuList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menuItem {
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menuItem:hover {
+    background-color: #55677d; /* Darker background color on hover */
+  }
+  
+  .menuIcon {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  /* MainMenu.css */
+
+/* ... (existing styles) */
+
+/* MainMenu.css */
+
+/* ... (existing styles) */
+
+/* MainMenu.css */
+
+/* ... (existing styles) */
+
+/* MainMenu.css */
+
+/* ... (existing styles) */
+
+/* MainMenu.css */
+
+/* ... (existing styles) */
+
+/* MainMenu.css */
+
+/* ... (existing styles) */
+
+.searchItem {
+    display: flex;
+    align-items: center; /* Align items vertically in the flex container */
+    flex-direction: row; /* Align items horizontally */
+    padding: 0;
+  }
+  
+  .searchIcon {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    color: #ffffff; /* White color for the search icon */
+  }
+  
+  .searchInput {
+    
+    border: none;
+    background-color: #fff; /* White background color for the search input */
+    color: #333; /* Black text color for the search input */
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  /* MainMenu.css */
+
+/* ... (existing styles) */
+
+.menuItem {
+    display: flex;
+    align-items: center; /* Center-align items vertically in the flex container */
+    font-size: 14px; /* Decrease font size */
+    margin-bottom: 10px; /* Add margin between menu items */
+  }
+  
+  .menuIcon {
+    font-size: 24px; /* Decrease icon size */
+    margin-right: 10px;
+  }
+  
+  
+  
+  
+  /* Updated styles for the "More" section */
+  .moreSection {
+    margin-top: 20px; /* Add margin to the "More" section */
+  }
+  
+  /* MainMenu.css */
+
+.menuItem.selected {
+  background-color: #29a5cb; /* Green color for selected item */
+  color: #ffffff; /* White text color for selected item */
+}
+
+@media only screen and (max-width: 600px) {
+  .mainMenu {
+    width: 0%;
+    top: 0;
+    padding: 10px;
+  }
+
+  .menuItem {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .menuIcon {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+  .searchItem {
+    flex-direction: column;
+  }
+
+  .searchIcon {
+    margin-bottom: 5px;
+  }
+
+  .searchInput {
+    margin-bottom: 10px;
+  }
+}

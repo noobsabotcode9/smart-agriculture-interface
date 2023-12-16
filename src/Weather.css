@@ -1,0 +1,45 @@
+/* Weather.css */
+
+.weather-container {
+    padding: 20px;
+    margin-top: 60px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+  /* Add styles for different weather icons */
+  .weather-info svg {
+    color: #3498db; /* Adjust the color as needed */
+    width: 80px;
+    height: 80px;
+  }
+  

@@ -1,0 +1,121 @@
+/* TitleBar.css */
+.title-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2d7dab;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+  margin-right: 10px;
+}
+
+.weather-forecast {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.title-right {
+  display: flex;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.welcome-message {
+  margin: 0;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.profile-picture {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-right: 30px;
+}
+
+.user-actions {
+  display: flex;
+}
+
+button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+.about-button:hover,
+.tutorial-button:hover,
+.agriculture-news-button:hover {
+  background-color: #080808;
+  color: #fff;
+}
+
+.about-button,
+.tutorial-button,
+.agriculture-news-button {
+  background-color: #fff;
+  color: #3498db;
+  margin-right: 30px;
+}
+
+.upgrade {
+  font-size: 16px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .title-bar {
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+
+  .title-left {
+    flex: 1; /* Allow the left side to take up the entire width on smaller screens */
+  }
+
+  .title-right {
+    align-items: flex-end; /* Align items to the right on smaller screens */
+  }
+
+  .user-info {
+    align-items: center; /* Align items to the center on smaller screens */
+  }
+
+  .welcome-message {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .profile-picture {
+    width: 30px; /* Adjust size for smaller screens */
+    height: 30px;
+  }
+
+  .user-actions {
+    flex-direction: row; /* Align items horizontally on smaller screens */
+  }
+}
